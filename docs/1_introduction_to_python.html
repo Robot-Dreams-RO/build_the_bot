@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1. Introduction to Python &mdash; build_the_bot 1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="_static/max_width.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2. What is a bot?" href="2_bot.html" />
+    <link rel="prev" title="0. Curriculum" href="0_curriculum.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            build_the_bot
+              <img src="_static/Logo.jpg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">How to</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0_curriculum.html">0. Curriculum</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Introduction to Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2_bot.html">2. What is a bot?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3_gpt.html">3. OpenAi’s ChatGPT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="TODO.html">3. TODO</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">build_the_bot</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">1. Introduction to Python</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/1_introduction_to_python.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="introduction-to-python">
+<h1>1. Introduction to Python<a class="headerlink" href="#introduction-to-python" title="Permalink to this heading"></a></h1>
+<section id="does-it-make-sense-to-learn-python">
+<h2>0. Does it make sense to learn Python?<a class="headerlink" href="#does-it-make-sense-to-learn-python" title="Permalink to this heading"></a></h2>
+<p>YES</p>
+<p>More about on:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://insights.stackoverflow.com/survey">StackOverflow Survey</a></p></li>
+<li><p><a class="reference external" href="https://spectrum.ieee.org/top-programming-languages-2022">IEEE Spectrum</a></p></li>
+</ul>
+</div></blockquote>
+<section id="is-python-the-best-language">
+<h3>1. Is Python the best language?<a class="headerlink" href="#is-python-the-best-language" title="Permalink to this heading"></a></h3>
+<p><strong>No</strong>. There are no best languages.</p>
+<p>Every language has pros and cons.</p>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="simple">
+<dt><strong>Pro</strong>:</dt><dd><ul>
+<li><p>easy to learn</p></li>
+<li><p>easy to code</p></li>
+<li><p>has support from the community</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>Con</strong>:</dt><dd><ul>
+<li><p>not fast or too performant</p></li>
+<li><p>needs libraries on locally to run</p></li>
+<li><p>management of libraries versions is weird</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+<section id="why-do-i-use-python-and-not-another-language">
+<h4>Why do <strong>I</strong> use Python and not another language?<a class="headerlink" href="#why-do-i-use-python-and-not-another-language" title="Permalink to this heading"></a></h4>
+<p>Python is an <strong>efficient language</strong>: my applications will do more in fewer lines of code than many other languages would require. I can build cli applications, machine learning algorithms, and cloud microservices. And the community - I believe in <strong>opensource</strong> and its ability to deliver good alternatives.</p>
+</section>
+</section>
+<section id="python-features">
+<h3>2. Python features<a class="headerlink" href="#python-features" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Simple</strong> - has a minimalist feel, the code feels like pseudo-code, allowing developers to concentrate on solving the problem not on writing the code.</p></li>
+<li><p><strong>Easy to use</strong> - most of the components are easy to pick up</p></li>
+<li><p>it’s <strong>FLOSS</strong> - Free/Libre and Open Source Software</p></li>
+<li><p><strong>High-level</strong> Language</p></li>
+<li><p><strong>Portable</strong></p></li>
+<li><p><strong>Interpreted</strong></p></li>
+<li><p><strong>Object-oriented</strong> - everything in Python is an object</p></li>
+<li><p><strong>Extensive libraries</strong> - from the web apps to ml - it does all</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Naming convention</strong> - the Python programming language was named after the BBC program “Monty Python’s Flying Circus” by Guido van Rossum.</p>
+</div>
+</section>
+<section id="python-versions">
+<h3>3. Python versions<a class="headerlink" href="#python-versions" title="Permalink to this heading"></a></h3>
+<p><a class="reference external" href="https://docs.python.org/3.11/whatsnew/index.html">Release notes</a>  - what is new in every version?</p>
+<p>When to update?</p>
+<ol class="arabic simple">
+<li><p>when new features are needed</p>
+<ul class="simple">
+<li><p>bugs are solved</p></li>
+<li><p>performance is improved</p></li>
+<li><p>newly added APIs that you may or may not need</p></li>
+</ul>
+</li>
+<li><p>when bored and you don’t have work to do</p></li>
+</ol>
+</section>
+<section id="how-to-code">
+<h3>4. How to code<a class="headerlink" href="#how-to-code" title="Permalink to this heading"></a></h3>
+<dl>
+<dt><strong>The Style Guide</strong></dt><dd><p>A Python Enhancement Proposal is written when someone wants to alter the Python programming language (PEP).</p>
+<p>PEP 8, which teaches Python programmers how to style their code, is one of the first PEPs.</p>
+<p>Read more about the Python conventions at <a class="reference external" href="https://peps.python.org/pep-0008/">https://peps.python.org/pep-0008/</a></p>
+</dd>
+<dt><strong>Indentation</strong></dt><dd><p>Per level of indentation, PEP 8 advises using four spaces.
+Four spaces allow for many levels of indentation on each line while also improving readability.
+People frequently indent text in word-processing documents using tabs rather than spaces.
+While this is effective for word-processing documents, the Python interpreter becomes confused when tabs and spaces are used together.</p>
+</dd>
+<dt><strong>Line Length</strong></dt><dd><p>The rule of thumb among Python programmers is that lines should be no more than 80 characters.
+Because most computers could only fit 79 characters on a single line in a terminal window, this rule originated in the past.
+Even if people can currently fit considerably longer lines on their devices, there are still good reasons to stick with the 79-character limit.
+Professional programmers frequently have multiple files open on the same screen, and by using the standard line length, they can see the whole line in two or three open files onscreen.
+Because some of the tools that automatically generate documentation for larger projects add formatting characters at the beginning of each comment line, PEP 8 also advises that you keep all of your comments to a maximum of 72 characters per line.</p>
+</dd>
+<dt><strong>Blank Lines</strong></dt><dd><p>Use blank lines to visually group the various components of your application.
+To arrange your files, utilize blank lines, but don’t use them frequently.</p>
+</dd>
+</dl>
+</section>
+<section id="the-zen-of-python">
+<h3>The Zen of Python<a class="headerlink" href="#the-zen-of-python" title="Permalink to this heading"></a></h3>
+<p>Experienced Python programmers will encourage you to avoid complexity and aim for simplicity whenever possible. The Python community’s philosophy is contained in “The Zen of Python” by Tim Peters. You can access this brief set of principles for writing good Python code by entering import this into your interpreter.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span><span class="mf">.11</span>
+
+<span class="c1"># then run</span>
+<span class="kn">import</span> <span class="nn">this</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="installation">
+<h2>1. Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<section id="install-on-wsl-ubuntu22-04">
+<h3>Install on WSL(Ubuntu22.04)<a class="headerlink" href="#install-on-wsl-ubuntu22-04" title="Permalink to this heading"></a></h3>
+<p>Python is already installed on your machine (the Linux Kernel is using it) - with version 3.10.
+Because Python3.11 has a major performance improvement - we want it.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add deadsnakes(from old versions of Python) repository</span>
+<span class="c1"># More information about deadsnakes https://github.com/deadsnakes/</span>
+sudo<span class="w"> </span>add-apt-repository<span class="w"> </span>ppa:deadsnakes/ppa
+
+<span class="c1"># Refresh the cache using the below command.</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>update
+
+<span class="c1"># And install Python 3.11 using the below command.</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>python3.11<span class="w"> </span>python3.11-venv<span class="w"> </span>-y
+</pre></div>
+</div>
+<p>In order not to affect the Kernel, we use virtual environments.</p>
+<p>Applications written in Python frequently use packages and modules that are not included in the standard library.
+Applications will sometimes require a particular version of a library because they may need a specific issue to be solved or they may have been created using an outdated version of the library’s interface.</p>
+<p>Making a virtual environment—a self-contained directory tree including a Python installation for a certain version of Python and several additional packages—is the answer to this issue.</p>
+<p>In Python we normally don’t use as much docker when deploying/running applications - we use Virtual Environment</p>
+<p>More about virtual environments: <a class="reference external" href="https://docs.python.org/3/tutorial/venv.html">https://docs.python.org/3/tutorial/venv.html</a></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python3.11<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+<span class="nb">source</span><span class="w"> </span>venv/bin/activate
+
+<span class="c1"># Once in venv run</span>
+python3.11
+
+<span class="c1"># Write your hello world</span>
+print<span class="o">(</span><span class="s2">&quot;Hello World&quot;</span><span class="o">)</span>
+
+<span class="c1"># To exit</span>
+<span class="c1"># Control+D or write exit()</span>
+
+<span class="c1"># Care about the different versions of Python</span>
+<span class="c1"># If you run</span>
+python
+<span class="c1"># or</span>
+python3
+<span class="c1"># or</span>
+python3.10
+<span class="c1"># or</span>
+python3.11
+
+<span class="c1"># That means our shebang will be different</span>
+<span class="c1">#!/usr/bin/env python3.11</span>
+</pre></div>
+</div>
+</section>
+<section id="set-default-python-versions">
+<h3>Set Default Python Versions<a class="headerlink" href="#set-default-python-versions" title="Permalink to this heading"></a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can install multiple versions of Python in Linux distros, but the default can only be one version.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure you know which applications depend on Python 3.10, because you can break some application</p>
+</div>
+<p>You can easily find it out using apt-cache rdepends command as below.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apt-cache<span class="w"> </span>rdepends<span class="w"> </span>python3.10
+</pre></div>
+</div>
+<p>Create symbolic links for the executable and set it up as the default</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Use update-alternatives to create symbolic links to python3</span>
+sudo<span class="w"> </span>update-alternatives<span class="w"> </span>--install<span class="w"> </span>/usr/bin/python3<span class="w"> </span>python3<span class="w"> </span>/usr/bin/python3.10<span class="w"> </span><span class="m">1</span>
+
+sudo<span class="w"> </span>update-alternatives<span class="w"> </span>--install<span class="w"> </span>/usr/bin/python3<span class="w"> </span>python3<span class="w"> </span>/usr/bin/python3.11<span class="w"> </span><span class="m">2</span>
+
+<span class="c1"># And choose which one to use as Python3 via the command:</span>
+sudo<span class="w"> </span>update-alternatives<span class="w"> </span>--config<span class="w"> </span>python3
+</pre></div>
+</div>
+</section>
+<section id="where-to-code">
+<h3>Where to code<a class="headerlink" href="#where-to-code" title="Permalink to this heading"></a></h3>
+<section id="python-s-embedded-shell">
+<h4>1. Python’s embedded shell<a class="headerlink" href="#python-s-embedded-shell" title="Permalink to this heading"></a></h4>
+<blockquote>
+<div><p>Why???</p>
+</div></blockquote>
+</section>
+<section id="microsoft-code">
+<h4>2. Microsoft code<a class="headerlink" href="#microsoft-code" title="Permalink to this heading"></a></h4>
+<p>A powerful, lightweight free code editor with integrated tools to easily deploy your code to Azure. - <a class="reference external" href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
+<dl class="simple">
+<dt>PRO:</dt><dd><ul class="simple">
+<li><p>lots of extensions</p></li>
+<li><p>available Linux and Windows</p></li>
+<li><p>can run code on WSL</p></li>
+<li><p>support for Azure, docker, and Kubernetes</p></li>
+</ul>
+</dd>
+<dt>CON:</dt><dd><ul class="simple">
+<li><p>some extensions are behind a paywall</p></li>
+<li><p>you need to tune it before it’s amazing</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="jupyter-notebook">
+<h4>3. Jupyter Notebook<a class="headerlink" href="#jupyter-notebook" title="Permalink to this heading"></a></h4>
+<p>JupyterLab is the latest web-based interactive development environment for notebooks, code, and data. Its flexible interface allows users to configure and arrange workflows in data science, scientific computing, computational journalism, and machine learning. A modular design invites extensions to expand and enrich functionality. - <a class="reference external" href="https://jupyter.org/">https://jupyter.org/</a></p>
+<p>It’s Python-based so you need to install it using pip</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># If you have not created and activated venv</span>
+python3.11<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+<span class="nb">source</span><span class="w"> </span>venv/bin/activate
+
+<span class="c1"># Install</span>
+pip<span class="w"> </span>install<span class="w"> </span>jupyter
+
+<span class="c1"># Run</span>
+jupyter<span class="w"> </span>notebook
+
+<span class="c1"># Copy the link into a browser</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>PRO:</dt><dd><ul class="simple">
+<li><p>it allows you to start and play with code</p></li>
+<li><p>is amazing for data science/ml or if you’re trying to visualize data</p></li>
+<li><p>can be run on a server and multiple people can access it</p></li>
+<li><p>is embedded into Microsoft Code</p></li>
+</ul>
+</dd>
+<dt>CON:</dt><dd><ul class="simple">
+<li><p>it’s not for OOP programming</p></li>
+<li><p>hard to work if the feed will grow too much</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+</section>
+</section>
+<section id="variables-and-data-structures">
+<h2>2. Variables and Data structures<a class="headerlink" href="#variables-and-data-structures" title="Permalink to this heading"></a></h2>
+<section id="variables">
+<h3>Variables<a class="headerlink" href="#variables" title="Permalink to this heading"></a></h3>
+<p>Variables Are Labels - Variables are often described as boxes you can store values in - a variable reference a certain value.</p>
+<p>When declaring a variable we use the syntax: <cite>name = value</cite></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>We can also do multiple assignments</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="s2">&quot;A&quot;</span><span class="p">,</span> <span class="s2">&quot;B&quot;</span><span class="p">,</span> <span class="s2">&quot;C&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span><span class="p">)</span>
+</pre></div>
+</div>
+<section id="naming">
+<h4>Naming<a class="headerlink" href="#naming" title="Permalink to this heading"></a></h4>
+<p>When you are using variables in Python, you need to adhere to a few rules and guidelines. Breaking some of these rules will cause errors; other guidelines just help you write code that is easier to read and understand. Be sure to keep the following variable rules in mind:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Variable names can contain only <strong>letters</strong>, <strong>numbers</strong>, and <strong>underscores</strong>.</p></li>
+<li><p>Variable names are <strong>case-sensitive</strong> (<code class="docutils literal notranslate"><span class="pre">name</span></code>, <code class="docutils literal notranslate"><span class="pre">Name</span></code> and <code class="docutils literal notranslate"><span class="pre">NAME</span></code> are three different variables)</p></li>
+<li><p>They can start with a <strong>letter or an underscore</strong>, but not with a number. For instance, you can call a variable <code class="docutils literal notranslate"><span class="pre">name_1</span></code> but not <code class="docutils literal notranslate"><span class="pre">1_name</span></code>.</p></li>
+<li><p><strong>Spaces are not allowed</strong> in variable names but underscores can be used to separate words in variable names. For example, <code class="docutils literal notranslate"><span class="pre">first_name</span></code> works, but <code class="docutils literal notranslate"><span class="pre">first</span> <span class="pre">name</span></code> will cause errors.</p></li>
+<li><p><strong>Avoid using Python keywords</strong> and function names as variable names; that is, do not use words that Python has reserved for a particular programmatic purpose, such as the word print. Read more:  <a class="reference external" href="https://docs.python.org/3/reference/lexical_analysis.html#keywords">https://docs.python.org/3/reference/lexical_analysis.html#keywords</a></p></li>
+<li><p>Variable names should be <strong>short but descriptive</strong>. For example, <code class="docutils literal notranslate"><span class="pre">name</span></code> is better than <code class="docutils literal notranslate"><span class="pre">n</span></code>, <code class="docutils literal notranslate"><span class="pre">first_name</span></code> is better than <code class="docutils literal notranslate"><span class="pre">f_n</span></code>, and <code class="docutils literal notranslate"><span class="pre">name_length</span></code> is better than <code class="docutils literal notranslate"><span class="pre">length_of_persons_name</span></code>.</p></li>
+<li><p>Be careful when using the lowercase letter <code class="docutils literal notranslate"><span class="pre">l</span></code> and the uppercase letter <code class="docutils literal notranslate"><span class="pre">O</span></code> because they could be confused with the numbers <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">and</span> <span class="pre">0</span></code>.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="naming-conventions">
+<h4>Naming conventions<a class="headerlink" href="#naming-conventions" title="Permalink to this heading"></a></h4>
+<p>In <strong>Python</strong> naming conventions will not affect your code, but will affect your way for working in the team (in other languages naming convention matters)</p>
+<p>We have 4 different ways of declaring:</p>
+<ol class="arabic simple">
+<li><p><strong>Snake case</strong> (ex: some_variable)</p></li>
+<li><p><strong>Screaming Snake case</strong> (ex: SOME_VARIABLE)</p></li>
+<li><p><strong>Pascal case</strong> (ex: SomeVariable)</p></li>
+<li><p><strong>Camel case</strong> (ex: someVariable)</p></li>
+</ol>
+<p>Read more about the Python conventions at <a class="reference external" href="https://peps.python.org/pep-0008/">https://peps.python.org/pep-0008/</a></p>
+<p><strong>I</strong> use them like this:</p>
+<ul class="simple">
+<li><p><strong>Snake case</strong> - for functions, methods, attributes, and variables (this is the preferred way in Python)</p></li>
+</ul>
+<p>Function names should be lowercase, with words separated by underscores as necessary to improve readability.</p>
+<p>Is preferred <code class="docutils literal notranslate"><span class="pre">def</span> <span class="pre">function_name():</span></code> not <code class="docutils literal notranslate"><span class="pre">def</span> <span class="pre">functionName():</span></code>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">first_name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Enter your name: &quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>Screaming Snake case</strong> - Constants</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">PI</span> <span class="o">=</span> <span class="mf">3.14</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>Pascal case</strong> - defining class name.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span>
+   <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+   <span class="k">def</span> <span class="nf">displayInfo</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> <span class="c1"># class method</span>
+      <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Student Name: &#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">,</span><span class="s1">&#39;, Age: &#39;</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">age</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>Camel case</strong>- to name some methods (ex: toJson, fromFile, updateFile) - because when you are using them they look like this <code class="docutils literal notranslate"><span class="pre">Student.displayInfo</span></code></p></li>
+</ul>
+</section>
+</section>
+<section id="data-types">
+<h3>Data types<a class="headerlink" href="#data-types" title="Permalink to this heading"></a></h3>
+<p>In Python 3.6, PEP 498 introduces a new kind of string literals: f-strings, or formatted string literals.</p>
+<p>Read more about f-strings <a class="reference external" href="https://docs.python.org/3/whatsnew/3.6.html#whatsnew36-pep498">https://docs.python.org/3/whatsnew/3.6.html#whatsnew36-pep498</a></p>
+<section id="strings">
+<h4>1. Strings<a class="headerlink" href="#strings" title="Permalink to this heading"></a></h4>
+<p>In Python, strings are enclosed in either single or double quotation marks. Single quotes will not let variables pass, so be careful.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">single_name</span> <span class="o">=</span> <span class="s1">&#39;skillab&#39;</span>
+<span class="n">doubleName</span> <span class="o">=</span> <span class="s2">&quot;skillab&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Course name is &quot;</span> <span class="o">+</span> <span class="n">single_name</span><span class="p">)</span>
+<span class="c1"># or</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Course name is </span><span class="si">{</span><span class="n">single_name</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<section id="string-manipulation">
+<h5>String Manipulation<a class="headerlink" href="#string-manipulation" title="Permalink to this heading"></a></h5>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;skillab&quot;</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+
+<span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;skillab&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">upper</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;A&#39;</span><span class="p">))</span>
+
+<span class="c1"># How to find out all the available alternatives</span>
+<span class="nb">dir</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="magic-methods">
+<h5>Magic methods<a class="headerlink" href="#magic-methods" title="Permalink to this heading"></a></h5>
+<p><code class="docutils literal notranslate"><span class="pre">__len__()</span></code></p>
+<p>One of the many magic methods in the Python programming language, <code class="docutils literal notranslate"><span class="pre">__len__</span></code> is primarily used to implement the <code class="docutils literal notranslate"><span class="pre">len()</span></code> function because every time the <code class="docutils literal notranslate"><span class="pre">len()</span></code> function is called, the magic method <code class="docutils literal notranslate"><span class="pre">__len__</span></code> is also called internally.</p>
+<p>After all, is said and done, it returns an integer value larger than or equal to zero, which is the length of the object for which it was called.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;skillab&quot;</span><span class="o">.</span><span class="fm">__len__</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="s2">&quot;skillab&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="numbers">
+<h4>2. Numbers<a class="headerlink" href="#numbers" title="Permalink to this heading"></a></h4>
+<p>Python supports two types of numbers:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>integers(whole numbers)</p></li>
+<li><p>floating point numbers(decimals).</p></li>
+</ul>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># When declaring a variable we use the syntax</span>
+<span class="c1"># name = value</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">xint</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">xfloat</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="n">universe_age</span> <span class="o">=</span> <span class="mi">14_000_000_000</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">xint</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">xfloat</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">universe_age</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">xint</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">xfloat</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">xint</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">xfloat</span><span class="p">))</span>
+</pre></div>
+</div>
+<section id="number-operations">
+<h5>Number operations<a class="headerlink" href="#number-operations" title="Permalink to this heading"></a></h5>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># add</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span>
+<span class="c1"># subtract</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+<span class="c1"># multiply</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">*</span><span class="mi">2</span><span class="p">)</span>
+<span class="c1"># divide</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span>
+<span class="c1"># modulo</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">1</span><span class="o">%</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="lists">
+<h4>3. Lists<a class="headerlink" href="#lists" title="Permalink to this heading"></a></h4>
+<p>A list is a collection of objects in a specific sequence.
+A list can contain anything you want, and there is no requirement that the items on it link to one another in any specific way.
+It’s a good idea to name your list in the plural, such as letters, numerals, or names, because lists typically contain many elements.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;cat&quot;</span><span class="p">,</span> <span class="s2">&quot;dog&quot;</span><span class="p">,</span> <span class="s2">&quot;python&quot;</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="c1"># Lists are ordered collections, so you can access any element in a list by telling Python the position, or index, of the item desired. To access an element in a list, write the name of the list followed by the index of the item enclosed in square brackets.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+<span class="c1"># You can also format the result</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+</pre></div>
+</div>
+<section id="list-manipulation">
+<h5>List Manipulation<a class="headerlink" href="#list-manipulation" title="Permalink to this heading"></a></h5>
+<p>The majority of lists you create will be dynamic, meaning that when your program executes, you’ll add, update and remove items from the list you’ve created.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add elements</span>
+<span class="n">animals</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;monkey&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="c1"># Insert an element at any position</span>
+<span class="n">animals</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;rabbit&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="c1"># Remove elements by position</span>
+<span class="k">del</span> <span class="n">animals</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="c1"># Removing an Item Using the pop() Method</span>
+<span class="c1"># Example want to remove a user from a list of active members and then add that user to a list of inactive members.</span>
+<span class="c1"># pop() with no argument last element</span>
+<span class="c1"># pop(1) 2nd element</span>
+<span class="n">popped_animal</span> <span class="o">=</span> <span class="n">animals</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+
+<span class="c1"># Remove elements by value</span>
+<span class="n">animals</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s2">&quot;python&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Only the first instance of the value you specify is removed by the <code class="docutils literal notranslate"><span class="pre">remove()</span></code> method.
+You’ll need to use a loop if there’s a chance that the value could appear more than once in the list to ensure that all instances are eliminated.</p>
+</div>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">digits</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="nb">min</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
+<span class="nb">max</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
+<span class="nb">sum</span><span class="p">(</span><span class="n">digits</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="list-organization">
+<h5>List Organization<a class="headerlink" href="#list-organization" title="Permalink to this heading"></a></h5>
+<p>Because you can’t always control the order in which your users submit their data, your lists will frequently be generated in an unpredictable order.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;rabbit&#39;</span><span class="p">,</span> <span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
+<span class="c1"># how long is the list</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="n">animals</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="n">animals</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># sort() is an irreversible procedure</span>
+<span class="c1"># if you need something temporary without affecting the original list use sorted(list_name)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Here is the original list:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Here is the sorted list:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">animals</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Here is the original list again:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When all the values are not lowercase, sorting a list alphabetically becomes a little more challenging.
+When determining a sort order, capital letters can be interpreted in a variety of ways, and specifying the precise order can be more difficult than we want to handle right now.</p>
+</div>
+</section>
+<section id="avoiding-index-errors-when-working-with-lists">
+<h5>Avoiding Index Errors When Working with Lists<a class="headerlink" href="#avoiding-index-errors-when-working-with-lists" title="Permalink to this heading"></a></h5>
+<p>When you are working with lists for the first time, one type of error is frequent to see is Index error.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;rabbit&#39;</span><span class="p">,</span> <span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">[</span><span class="mi">5</span><span class="p">])</span>
+
+<span class="c1"># Instead of using last element by explicitly using position value we can use</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="dictionaries">
+<h4>4. Dictionaries<a class="headerlink" href="#dictionaries" title="Permalink to this heading"></a></h4>
+<p>In Python, a dictionary is a collection of key-value pairs.
+Each key has a value associated with it, and you may use a key to get that value.
+The value of a key could be an integer, string, list, dictionary, or even another dictionary.
+In actuality, you may use any Python-created object as a value in a dictionary.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;reptile&#39;</span><span class="p">:</span> <span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;primates&#39;</span><span class="p">:</span> <span class="s1">&#39;monkey&#39;</span><span class="p">,</span> <span class="s1">&#39;mammal&#39;</span><span class="p">:</span> <span class="s1">&#39;dog&#39;</span><span class="p">}</span>
+
+<span class="c1"># Accessing elements using key</span>
+<span class="n">animals</span><span class="p">[</span><span class="s1">&#39;primates&#39;</span><span class="p">]</span>
+
+<span class="c1"># Accessing keys</span>
+<span class="n">animals</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+
+<span class="c1"># Accessing values</span>
+<span class="n">animals</span><span class="o">.</span><span class="n">values</span><span class="p">()</span>
+
+<span class="c1"># Loop through dictionary values</span>
+<span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">animals</span><span class="o">.</span><span class="n">values</span><span class="p">():</span>
+   <span class="nb">print</span><span class="p">(</span><span class="n">animal</span><span class="o">.</span><span class="n">title</span><span class="p">())</span>
+
+<span class="n">muscle_cars</span> <span class="o">=</span> <span class="p">{</span>
+<span class="s2">&quot;brand&quot;</span><span class="p">:</span> <span class="s2">&quot;Dodge&quot;</span><span class="p">,</span>
+<span class="s2">&quot;model&quot;</span><span class="p">:</span> <span class="s2">&quot;Challenger&quot;</span><span class="p">,</span>
+<span class="s2">&quot;year&quot;</span><span class="p">:</span> <span class="mi">1970</span>
+<span class="p">}</span>
+
+<span class="c1"># Add new elements in dictionary</span>
+<span class="n">muscle_cars</span><span class="p">[</span><span class="s2">&quot;color&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;black&quot;</span>
+
+<span class="c1"># Update dictionary</span>
+<span class="n">muscle_cars</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s2">&quot;color&quot;</span><span class="p">:</span> <span class="s2">&quot;red&quot;</span><span class="p">})</span>
+
+<span class="c1"># Remove items</span>
+<span class="c1"># `pop()` method removes the item with the specified key name</span>
+<span class="n">muscle_cars</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;color&quot;</span><span class="p">)</span>
+
+<span class="c1"># `popitem()` method removes the last inserted item</span>
+<span class="n">muscle_cars</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;year&quot;</span><span class="p">)</span>
+
+<span class="c1"># `del` keyword removes the item with the specified key name</span>
+<span class="k">del</span> <span class="n">muscle_cars</span><span class="p">[</span><span class="s2">&quot;model&quot;</span><span class="p">]</span>
+
+<span class="c1"># clear() method empties the dictionary</span>
+<span class="n">muscle_cars</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="loops-and-conditionals">
+<h2>3. Loops and conditionals<a class="headerlink" href="#loops-and-conditionals" title="Permalink to this heading"></a></h2>
+<section id="if-conditional">
+<h3>If Conditional<a class="headerlink" href="#if-conditional" title="Permalink to this heading"></a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;rabbit&#39;</span><span class="p">,</span> <span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="s1">&#39;python&#39;</span> <span class="ow">in</span> <span class="n">animals</span><span class="p">:</span>
+    <span class="n">animals</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;python&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="s2">&quot;whale&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">animals</span><span class="p">:</span>
+    <span class="n">animals</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;whale&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+
+<span class="c1"># Checking that a list is not empty</span>
+<span class="n">animals</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">animals</span><span class="p">:</span>
+    <span class="n">animals</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;python&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">animals</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="for-loop">
+<h3>For loop<a class="headerlink" href="#for-loop" title="Permalink to this heading"></a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">animals</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;rabbit&#39;</span><span class="p">,</span> <span class="s1">&#39;cat&#39;</span><span class="p">,</span> <span class="s1">&#39;dog&#39;</span><span class="p">,</span> <span class="s1">&#39;python&#39;</span><span class="p">,</span> <span class="s1">&#39;monkey&#39;</span><span class="p">]</span>
+
+<span class="c1"># Looping string lists</span>
+<span class="k">for</span> <span class="n">animal</span> <span class="ow">in</span> <span class="n">animals</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">animal</span><span class="p">)</span>
+
+<span class="c1"># Loop numeral lists</span>
+<span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+
+<span class="c1"># Creating a new list</span>
+<span class="n">squares1</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">):</span>
+    <span class="n">square</span> <span class="o">=</span> <span class="n">value</span> <span class="o">**</span> <span class="mi">2</span>
+    <span class="n">squares1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">square</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">squares1</span><span class="p">)</span>
+
+<span class="c1"># List Comprehensions</span>
+<span class="n">squares2</span> <span class="o">=</span> <span class="p">[</span><span class="n">value</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">)]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">squares2</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Four lines of code were used in the older method for creating the list squares.
+With just one line of code, you can create the same list using list comprehension.
+A list comprehension automatically appends each new element and condenses the for loop and production of new elements into a single line.</p>
+</div>
+</section>
+<section id="while-loop">
+<h3>While loop<a class="headerlink" href="#while-loop" title="Permalink to this heading"></a></h3>
+<p>You can use a while loop to count up through a series of numbers. For example, the following while loop counts from 1 to 5:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">current_number</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">current_number</span> <span class="o">&lt;=</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">current_number</span><span class="p">)</span>
+    <span class="n">current_number</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="c1"># Running while true until break</span>
+<span class="n">user_input</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Please enter the name of a country you have visited:&quot;</span>
+<span class="n">user_input</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">(Enter &#39;exit&#39; when you are finished.) &quot;</span>
+
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">country</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">user_input</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">country</span> <span class="o">==</span> <span class="s1">&#39;exit&#39;</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="k">elif</span> <span class="n">country</span> <span class="o">==</span> <span class="s1">&#39;romania&#39;</span><span class="p">:</span>
+        <span class="k">continue</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;I&#39;d love to go to </span><span class="si">{</span><span class="n">country</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="libraries-and-modules">
+<h2>4. Libraries and modules<a class="headerlink" href="#libraries-and-modules" title="Permalink to this heading"></a></h2>
+<p>A Python library is a collection of related modules, that contains code that can be reused in different programs.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">datetime</span>
+
+<span class="n">today</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">today</span><span class="si">:</span><span class="s2">%B %d, %Y</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>How can I make sure that a library is secure, performant, and up-to-date?</p>
+<p>This is a challenge, but the easiest is to go to the library github’s project and review the code.</p>
+<p>Also, you can use tools like <a class="reference external" href="https://debricked.com/select/">https://debricked.com/select/</a> that will give you a summary of that project.</p>
+<p>We consider a library to be used if it’s updated in the last couple of months if has many and varied committers if has lots of active PRs.</p>
+</section>
+<section id="functions">
+<h2>5. Functions<a class="headerlink" href="#functions" title="Permalink to this heading"></a></h2>
+<p>Functions - blocks of code that are designed to do one specific job.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        None</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+
+<span class="n">hello_world</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Passing arguments to the function</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with one parameter.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        username (str): The username of your user</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span>
+
+<span class="n">hello_name</span><span class="p">(</span><span class="s1">&#39;skillab&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>A function call would require multiple arguments since a function specification could contain many parameters.
+There are many different ways to give arguments to your functions:
+- keyword arguments, where each argument consists of a variable name and a value, lists and dictionaries of values
+- positional arguments, which must be in the same order as the parameters were written.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Positional arguments</span>
+<span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="n">email</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with 2 parameters.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        username (str): The username of your user</span>
+<span class="sd">        email (str): The email of your user</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> with </span><span class="si">{</span><span class="n">email</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span>
+
+<span class="n">hello_name</span><span class="p">(</span><span class="s1">&#39;skillab&#39;</span><span class="p">,</span> <span class="s1">&#39;admin@skillab.com&#39;</span><span class="p">)</span>
+
+<span class="c1"># Keyword arguments</span>
+<span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="n">email</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with 2 parameters.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        username (str): The username of your user</span>
+<span class="sd">        email (str): The email of your user</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> with </span><span class="si">{</span><span class="n">email</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span>
+
+<span class="n">hello_name</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s1">&#39;skillab&#39;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@skillab.com&#39;</span><span class="p">)</span>
+<span class="n">hello_name</span><span class="p">(</span><span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@robotdreams.com&#39;</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="s1">&#39;robotdreams&#39;</span><span class="p">)</span>
+
+<span class="c1"># Best practice is to specify default values and also document them</span>
+<span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s1">&#39;skillab&#39;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@skillab.com&#39;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with 2 parameters.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        username (str): The username of your user</span>
+<span class="sd">        email (str): The email of your user</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> with </span><span class="si">{</span><span class="n">email</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span><span class="p">)</span>
+
+<span class="n">hello_name</span><span class="p">(</span><span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@robotdreams.com&#39;</span><span class="p">,</span> <span class="n">username</span><span class="o">=</span><span class="s1">&#39;robotdreams&#39;</span><span class="p">)</span>
+<span class="n">hello_name</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s1">&#39;robotdreams&#39;</span><span class="p">)</span>
+<span class="n">hello_name</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>A function’s result should not always be displayed on the screen.
+A value or combination of values may be returned after processing some data, as an alternative.
+A return value is a value that the function returns.
+A value is taken from a function’s return statement and sent back to the line that is called the function.
+Return values let you relocate a lot of your program’s manual tasks into functions, which can reduce the code itself.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s1">&#39;skillab&#39;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@skillab.com&#39;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with 2 parameters.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        username (str): The username of your user</span>
+<span class="sd">        email (str): The email of your user</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        string: a string with information about the user and mail</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> with </span><span class="si">{</span><span class="n">email</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span>
+
+<span class="n">hello_world</span> <span class="o">=</span> <span class="n">hello_name</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="classes">
+<h2>6. Classes<a class="headerlink" href="#classes" title="Permalink to this heading"></a></h2>
+<p>Object-oriented programming (OOP) is a programming paradigm based on the concept of “objects”, which can contain data and code. The data is in the form of fields (often known as attributes or properties), and the code is in the form of procedures (often known as methods).</p>
+<p>Generating an object from a class is called instantiation.
+You work with instances of a class, which are created by the process of instantiating an object from a class.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Student</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    A class is used to represent a student.</span>
+
+<span class="sd">    ...</span>
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+<span class="sd">    name: str</span>
+<span class="sd">        the name of the students</span>
+<span class="sd">    age: int</span>
+<span class="sd">        the age of the students</span>
+
+<span class="sd">    Methods</span>
+<span class="sd">    -------</span>
+<span class="sd">    learn()</span>
+<span class="sd">        Simulate a student&#39;s learning.</span>
+<span class="sd">    take_exam()</span>
+<span class="sd">        Simulate taking over good results.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Initialize name and age attributes.</span>
+
+<span class="sd">        Attributes</span>
+<span class="sd">        ----------</span>
+<span class="sd">        name: str</span>
+<span class="sd">            the name of the students</span>
+<span class="sd">        age: int</span>
+<span class="sd">            the age of the students</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            None</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
+
+    <span class="k">def</span> <span class="nf">learn</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Simulate a student&#39;s learning.</span>
+
+<span class="sd">        Prints status</span>
+
+<span class="sd">        Attributes</span>
+<span class="sd">        ----------</span>
+<span class="sd">        name: str</span>
+<span class="sd">            the name of the students</span>
+<span class="sd">        age: int</span>
+<span class="sd">            the age of the students</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            None</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> is now learning.&quot;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">take_exam</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;Simulate taking over good results.</span>
+
+<span class="sd">        Prints encouragement</span>
+
+<span class="sd">        Attributes</span>
+<span class="sd">        ----------</span>
+<span class="sd">        name: str</span>
+<span class="sd">            the name of the students</span>
+<span class="sd">        age: int</span>
+<span class="sd">            the age of the students</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">            None</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> did great!&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Student1 is </span><span class="si">{</span><span class="n">student1</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and is </span><span class="si">{</span><span class="n">student1</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Student2 is </span><span class="si">{</span><span class="n">student2</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> and is </span><span class="si">{</span><span class="n">student2</span><span class="o">.</span><span class="n">age</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="n">student1</span> <span class="o">=</span> <span class="n">Student</span><span class="p">(</span><span class="s2">&quot;John Wick&quot;</span><span class="p">,</span> <span class="mi">47</span><span class="p">)</span>
+<span class="n">student2</span> <span class="o">=</span> <span class="n">Student</span><span class="p">(</span><span class="s2">&quot;Macaulay Culkin&quot;</span><span class="p">,</span> <span class="mi">12</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>A method is a function that is part of a class.
+Everything you learned about functions also applies to methods; the only difference in practice is that we’ll refer to methods as methods.</p>
+</section>
+<section id="documenting-your-code">
+<h2>7. Documenting your code<a class="headerlink" href="#documenting-your-code" title="Permalink to this heading"></a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>“Code is more often read than written.”</p>
+<p>— Guido van Rossum</p>
+</div>
+<p>Every piece of code you write code has three primary audiences:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>your users</p></li>
+<li><p>your developers</p></li>
+<li><p>you</p></li>
+</ol>
+</div></blockquote>
+<p><strong>Everyone is equally important!</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>“Well, Miss Barrett, when that passage was written only God and Robert Browning understood it. Now, only God understands it.”</p>
+<p>— Robert Browning</p>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>“It doesn’t matter how good your software is, because if the documentation is not good enough, people will not use it.“</p>
+<p>— Daniele Procida</p>
+</div>
+<p><cite>Comments</cite> - to explain a decision in code</p>
+<p><cite>Documentation</cite> - information about how to install, use, update, debug.</p>
+<p>The use of Python documentation strings, sometimes known as “docstrings,” makes it simple to link documentation to specific Python modules, functions, classes, and methods.</p>
+<p>It is stated in the source code that it is used to document a particular section of code, much like a comment.
+The docstring should explain what the function does, not how it accomplishes it, unlike traditional source code comments.</p>
+<p>More about Docstring Conventions at <a class="reference external" href="https://peps.python.org/pep-0257/">https://peps.python.org/pep-0257/</a>.</p>
+<p>More about <a class="reference external" href="https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings">https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings</a></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s1">&#39;skillab&#39;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@skillab.com&#39;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with 2 parameters.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        username (str): The username of your user (default is skillab)</span>
+<span class="sd">        email (str): The email of your user (default is admin@skillab.com)</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        string: a string with information about the user and mail</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> with </span><span class="si">{</span><span class="n">email</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span>
+</pre></div>
+</div>
+<p>More about <a class="reference external" href="http://docutils.sourceforge.net/rst.html">http://docutils.sourceforge.net/rst.html</a></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello_name</span><span class="p">(</span><span class="n">username</span><span class="o">=</span><span class="s1">&#39;skillab&#39;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s1">&#39;admin@skillab.com&#39;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Display a simple greeting with 2 parameters.</span>
+
+<span class="sd">    :param username: The username of your user (default is skillab)</span>
+<span class="sd">    :type username: str</span>
+<span class="sd">    :param email: The email of your user (default is admin@skillab.com)</span>
+<span class="sd">    :type email: str</span>
+<span class="sd">    :returns: a string with information about user and mail</span>
+<span class="sd">    :rtype: string</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Hello World </span><span class="si">{</span><span class="n">username</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2"> with </span><span class="si">{</span><span class="n">email</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span><span class="si">}</span><span class="s2">!&quot;</span>
+</pre></div>
+</div>
+</section>
+<section id="python-language-rules">
+<h2>8. Python Language Rules<a class="headerlink" href="#python-language-rules" title="Permalink to this heading"></a></h2>
+<p>Lint, often known as a <cite>linter</cite>, is a tool that analyzes source code in order to detect programming errors, bugs, stylistic errors, and suspicious structures.</p>
+<p>A <cite>linter</cite>, in its simplest form, is a program that examines your code in order to identify problems that could result in errors or inconsistencies with code health and style. Some even assist you in fixing them!</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pylint<span class="w"> </span>*py
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Mypy</span></code> is a Python static type checker that is optional and attempts to combine the advantages of static and dynamic (or “duck”) typing.
+<code class="docutils literal notranslate"><span class="pre">Mypy</span></code> combines a robust type system and compile-time type verification with Python’s expressive power and simplicity.
+<code class="docutils literal notranslate"><span class="pre">Mypy</span></code> type verifies common Python programs, which can be executed on any Python virtual machine with almost no runtime overhead.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mypy<span class="w"> </span>*py
+</pre></div>
+</div>
+<p>Black is the uncompromising Python code formatter. By using it, you agree to cede control over the minutiae of hand-formatting. In return, Black gives you speed, determinism, and freedom from pycodestyle nagging about formatting. You will save time and mental energy for more important matters.</p>
+<p>Blackened code looks the same regardless of the project you’re reading. Formatting becomes transparent after a while and you can focus on the content instead.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>black<span class="w"> </span>*py
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="0_curriculum.html" class="btn btn-neutral float-left" title="0. Curriculum" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="2_bot.html" class="btn btn-neutral float-right" title="2. What is a bot?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, robot_dreams.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

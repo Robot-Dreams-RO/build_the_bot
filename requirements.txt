@@ -1,0 +1,14 @@
+# building
+sphinx
+sphinx_rtd_theme
+sphinx-copybutton
+
+# testing
+pylint
+black
+
+# code
+prettyprint
+requests
+bs4
+discord.py
