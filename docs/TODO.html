@@ -23,7 +23,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="3. OpenAi’s ChatGPT" href="3_gpt.html" /> 
+    <link rel="prev" title="AI in Medicine" href="4_ai_in_medicine.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -52,6 +52,7 @@
 <li class="toctree-l1"><a class="reference internal" href="1_introduction_to_python.html">1. Introduction to Python</a></li>
 <li class="toctree-l1"><a class="reference internal" href="2_bot.html">2. What is a bot?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3_gpt.html">3. OpenAi’s ChatGPT</a></li>
+<li class="toctree-l1"><a class="reference internal" href="4_ai_in_medicine.html">AI in Medicine</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">3. TODO</a></li>
 </ul>
 
@@ -81,14 +82,65 @@
              
   <section id="todo">
 <h1>3. TODO<a class="headerlink" href="#todo" title="Permalink to this heading"></a></h1>
-<p>Build a bot</p>
+<p>Build a bot to help with triage in ER. This would be a bot that would get input from the patient about what symptoms they have and score their status. Then provide an order in which the patients will be seen by the doctor. This would be a great way to help the doctor and the patient. The doctor would be able to see the patients in order of severity and the patient would be able to see how long they would have to wait.</p>
+<p>The patient will be triaged in one of these categories</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Definition</p></th>
+<th class="head"><p>Triage categories</p></th>
+<th class="head"><p>General discriminators</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Red</p></td>
+<td><p>Immediate - Immediate</p></td>
+<td><p>Airway compromise</p>
+<p>Inadequate breathing</p>
+<p>Exsanguinate hemorrhage</p>
+<p>Currently seizing</p>
+<p>Abnormal age-related vital signs</p>
+<p>GCS ≤ 12</p>
+<p>Oxygen saturations ≤ 90%</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Orange</p></td>
+<td><p>Very urgent - ≤ 10 minutes</p></td>
+<td><p>Severe pain (pain score 7-10)</p>
+<p>Uncontrollable major hemorrhage</p>
+<p>GCS 13 or 14</p>
+<p>Abnormal age-related vital signs</p>
+<p>Signs of compensated shock</p>
+<p>Oxygen saturations ≤ 92%</p>
+<p>Central capillary refill time (CRT) &gt; 2 seconds</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Yellow</p></td>
+<td><p>Urgent - ≤ 60 minutes</p></td>
+<td><p>Moderate pain (pain score 4-6)</p>
+<p>Uncontrollable minor hemorrhage</p>
+<p>Abnormal age-related vital signs</p>
+<p>History of unconsciousness</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Green</p></td>
+<td><p>Standard - ≤ 120 minutes</p></td>
+<td><p>Mild pain (Pain score 1-3)</p>
+<p>Problem &lt;48 hours</p>
+</td>
+</tr>
+<tr class="row-even"><td><p>Blue</p></td>
+<td><p>Non-urgent - ≤ 240 minutes</p></td>
+<td><p>Problem &gt; 48 hours</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="3_gpt.html" class="btn btn-neutral float-left" title="3. OpenAi’s ChatGPT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="4_ai_in_medicine.html" class="btn btn-neutral float-left" title="AI in Medicine" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

@@ -18,4 +18,5 @@ More than just creating a workshop on how to construct a bot, my goal was to sho
    1_introduction_to_python
    2_bot
    3_gpt
+   4_ai_in_medicine
    TODO

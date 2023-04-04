@@ -65,6 +65,12 @@ async def bye(ctx):
     await ctx.send("Please don't leave me ...")
 
 
+@bot.command(name="python")
+async def bye(ctx):
+    """Say goodbye to the bot."""
+    await ctx.send("python is the best language ever!")
+
+
 @bot.command(name="hn")
 async def top_stories(ctx):
     """Fetch the top 5 stories from Hacker News."""
