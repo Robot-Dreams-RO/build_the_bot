@@ -39,3 +39,21 @@ There are several types of machine learning approaches, including:
 #. **Supervised learning**: The algorithm is trained on a labeled dataset, where the input data is paired with the correct output. The goal is to learn a mapping from inputs to outputs, which can then be used to make predictions on new, unseen data. Common tasks in supervised learning include classification (categorizing data into classes) and regression (predicting a continuous value).
 #. **Unsupervised learning**: The algorithm is given an unlabeled dataset and must find patterns or structures within the data without any guidance. This approach is often used for tasks such as clustering (grouping similar data points) or dimensionality reduction (reducing the number of features in the data while preserving its structure).
 #. **Reinforcement learning**: In this approach, the learning algorithm interacts with an environment to achieve a specific goal. The algorithm learns by trial and error, receiving feedback in the form of rewards or penalties. The goal is to learn a policy that maximizes the cumulative reward over time.
+
+=========================
+Applying Machine Learning
+=========================
+
+.. note::
+
+    Machine learning is an amazing technology but the process of getting it ready is excruciatingly painful. It involves a lot of data preparation, feature engineering, model selection, hyperparameter tuning, and model evaluation.
+
+Steps:
+
+#. Understand the business **problem** - What is the business problem you are trying to solve? What is the business value of solving it? What is the impact of not solving it?
+#. Understand and identify the **data** - What data do you have? What data do you need? What data do you need to collect? What data do you need to clean? What data do you need to transform?
+#. **Collect** and clean the data - How do you collect the data? How do you clean the data? How do you transform the data?
+#. Determine the model **features** and **train** it - What features do you need to extract from the data? What features do you need to engineer? What features do you need to select? What features do you need to remove? What features do you need to normalize? What features do you need to impute? What features do you need to discretize? What features do you need to binarize? 
+#. Evaluate the **model's performance** and establish benchmarks - How do you evaluate the model's performance? How do you establish benchmarks?
+#. **Deploy** the model in production - How do you deploy the model in production? How do you monitor the model's performance in production? How do you retrain the model in production?
+#. Iterate, adjust and **retrain** the model - Now that you've gotten everything to work, all of the data you used for initial training is no longer useful because you've changed the world.
