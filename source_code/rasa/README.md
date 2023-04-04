@@ -6,7 +6,7 @@ Building a chatbot with Rasa involves several steps, such as setting up the envi
 
 ```bash
 # First, make sure you have Python 3.6, 3.7, or 3.8 installed on your system. Then, install Rasa using pip:
-pip install rasa
+pip install rasa websockets
 
 # Create a new Rasa project:
 # In your terminal or command prompt, run the following command to create a new Rasa project:
